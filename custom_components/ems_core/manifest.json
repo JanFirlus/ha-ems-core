@@ -1,0 +1,12 @@
+{
+  "domain": "ems_core",
+  "name": "EMS Core",
+  "version": "0.1.0",
+  "documentation": "https://github.com/JanFirlus/ha-ems-core",
+  "issue_tracker": "https://github.com/JanFirlus/ha-ems-core/issues",
+  "codeowners": ["@JanFirlus"],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "integration_type": "hub",
+  "requirements": []
+}

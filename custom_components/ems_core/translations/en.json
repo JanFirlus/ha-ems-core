@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to EMS Core",
+        "description": "Credentials for your EMS-Core instance (same login as the EMS dashboard).",
+        "data": {
+          "host": "EMS-Core URL",
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach EMS-Core. Check the URL.",
+      "invalid_auth": "Invalid email or password.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This EMS-Core instance is already configured."
+    }
+  }
+}

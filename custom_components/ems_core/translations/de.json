@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mit EMS Core verbinden",
+        "description": "Zugangsdaten für deine EMS-Core-Instanz (gleicher Login wie im EMS-Dashboard).",
+        "data": {
+          "host": "EMS-Core-URL",
+          "email": "E-Mail",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "EMS-Core nicht erreichbar. URL prüfen.",
+      "invalid_auth": "E-Mail oder Passwort falsch.",
+      "unknown": "Unerwarteter Fehler."
+    },
+    "abort": {
+      "already_configured": "Diese EMS-Core-Instanz ist bereits eingerichtet."
+    }
+  }
+}
